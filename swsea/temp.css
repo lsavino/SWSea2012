@@ -13,6 +13,10 @@ h2 {
     text-align: center;
 }
 
+* {
+    background-color: inherit;
+}
+
 .right {
     float: right;
 }
@@ -27,9 +31,16 @@ h2 {
     width: 90%;
 }
 
-.clearfix {
-    clear:both;
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
 }
+ 
+.clearfix { display: inline-block; }
 
 .people-list {
     display: block;
@@ -46,9 +57,20 @@ h2 {
     font-size: 18px;
 }
 
+.events img {
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.plugged-event {
+    padding-bottom: 20px;
+    background-color: yellow;
+}
+
 .event {
     width: 49%;
     padding-right: 10px;
+    height: 100%;
 }
 
 .event h2 {
@@ -57,6 +79,7 @@ h2 {
 
 .ambassador {
     width: 49%;
+    height: 100%;
 }
 
 .ambassador .replies div {
