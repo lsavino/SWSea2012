@@ -189,6 +189,11 @@ h3 {
     color: white;
 }
 
+.sponsor-name {
+    display: inline-block;
+    font-size: 20px;
+}
+
 .twitter-feed {
     width: 19%;
     background-color: #066668;
