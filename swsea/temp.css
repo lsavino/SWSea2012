@@ -13,10 +13,22 @@ h2 {
     text-align: center;
 }
 
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
 .center {
     margin-left:auto;
     margin-right:auto;
     width: 90%;
+}
+
+.clearfix {
+    clear:both;
 }
 
 .people-list {
@@ -25,21 +37,13 @@ h2 {
     background-color: red;
 }
 
-.neighborhood-desc {
-    display: block;
-    width: 80%;
+.event h2 {
+    text-align: left;
+    font-size: 18px;
+    text-transform: uppercase;
 }
 
-.neighborhood-desc p {
-    font-size: 14px;
-    color: blue;
-}
-
-.right {
-    float: right;
-}
-
-.left {
-    float: left;
+.event h3 {
+    padding-top: 15px;
 }
 
