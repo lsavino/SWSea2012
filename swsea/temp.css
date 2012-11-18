@@ -113,6 +113,7 @@ h3 {
     padding-right: 15px;
     padding-left: 15px;
     background-color: #cece54;
+    width: 96%;
 }
 
 .plugged-event h3 {
@@ -125,6 +126,19 @@ h3 {
     padding-right: 10px;
     height: 100%;
     border-right: 2px solid #3b3b3d;
+}
+
+.event .logo {
+    background-image: url("images/logo-dark.png");
+    width: 72px;
+    height: 43px;
+    background-repeat: no-repeat;
+}   
+
+.event .event-type {
+    color: #066668;
+    font-weight: bold;
+    font-size: 36px;
 }
 
 .event h2 {
@@ -152,7 +166,15 @@ h3 {
 }
 
 .events .hosted {
-    color: #066668;
+    background-image: url("images/apluginhostedevent.png");
+    height: 22px;
+    width: 141px;
+    background-repeat: no-repeat;
+}
+
+.event .detail .key {
+    font-weight: bold;
+    margin-right: 5px;
 }
 
 .ambassador {
