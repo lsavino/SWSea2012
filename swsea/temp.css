@@ -1,0 +1,45 @@
+
+body {
+    font-family: "Helvetica";
+}
+
+h1 {
+    font-size: 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 14px;
+    text-align: center;
+}
+
+.center {
+    margin-left:auto;
+    margin-right:auto;
+    width: 90%;
+}
+
+.people-list {
+    display: block;
+    width: 38%;
+    background-color: red;
+}
+
+.neighborhood-desc {
+    display: block;
+    width: 60%;
+}
+
+.neighborhood-desc p {
+    font-size: 14px;
+    color: blue;
+}
+
+img.right {
+    float: right;
+}
+
+img.left {
+    float: left;
+}
+
