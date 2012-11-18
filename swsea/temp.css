@@ -124,6 +124,7 @@ h3 {
     width: 69%;
     padding-right: 10px;
     height: 100%;
+    border-right: 2px solid #3b3b3d;
 }
 
 .event h2 {
