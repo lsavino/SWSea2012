@@ -37,9 +37,12 @@ h2 {
     background-color: red;
 }
 
-.event h2 {
+.events h2 {
     text-align: left;
     font-size: 18px;
+}
+
+.event h2 {
     text-transform: uppercase;
 }
 
@@ -47,3 +50,15 @@ h2 {
     padding-top: 15px;
 }
 
+.ambassador .thumbnails {
+    display: inline-block;
+}
+
+.ambassador .thumb {
+    background-image: url("http://placekitten.com/25/25");
+    width: 25px;
+    height: 25px;
+    float: left;
+    padding-left: 10px;
+    background-repeat: no-repeat;
+}
