@@ -23,11 +23,13 @@ h2 {
     display: block;
     width: 38%;
     background-color: red;
+    float: left;
 }
 
 .neighborhood-desc {
     display: block;
     width: 60%;
+    float: right;
 }
 
 .neighborhood-desc p {
