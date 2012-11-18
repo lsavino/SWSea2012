@@ -48,9 +48,12 @@ h2 {
     background-color: red;
 }
 
-.plugged-event h3 {
-    padding-top: 15px;
-    padding-bottom: 15px;
+.neighborhood.content {
+    display: inline-block;
+}
+
+.events {
+    width: 80%;
 }
 
 .events h2 {
@@ -71,6 +74,11 @@ h2 {
     background-color: yellow;
 }
 
+.plugged-event h3 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
 .event {
     width: 49%;
     padding-right: 10px;
@@ -88,5 +96,9 @@ h2 {
 
 .ambassador .replies div {
     display: inline-block;
+}
+
+.twitter-feed {
+    width: 20%;
 }
 
