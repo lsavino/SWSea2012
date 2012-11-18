@@ -113,6 +113,7 @@ h3 {
     padding-right: 15px;
     padding-left: 15px;
     background-color: #cece54;
+    width: 96%;
 }
 
 .plugged-event h3 {
@@ -153,6 +154,11 @@ h3 {
 
 .events .hosted {
     color: #066668;
+}
+
+.event .detail .key {
+    font-weight: bold;
+    margin-right: 5px;
 }
 
 .ambassador {
