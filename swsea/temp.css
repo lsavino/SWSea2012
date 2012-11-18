@@ -46,19 +46,11 @@ h2 {
     text-transform: uppercase;
 }
 
-.event h3 {
+.plugged-event h3 {
     padding-top: 15px;
 }
 
-.ambassador .thumbnails {
+.ambassador .replies div {
     display: inline-block;
 }
 
-.ambassador .thumb {
-    background-image: url("http://placekitten.com/25/25");
-    width: 25px;
-    height: 25px;
-    float: left;
-    padding-left: 10px;
-    background-repeat: no-repeat;
-}
