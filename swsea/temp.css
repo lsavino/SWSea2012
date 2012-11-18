@@ -11,6 +11,9 @@ body {
 	background-image:url("images/logo.png"), url("images/bgbars.png"), url("images/background.jpg");
 	background-position:  right top, left top, 0 93;
 	background-repeat: no-repeat, repeat-x, no-repeat;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
 }
 
 h1 {
@@ -70,6 +73,7 @@ h2 {
 
 .neighborhood.content {
     display: inline-block;
+    height: 100%;
 }
 
 .events {
@@ -100,7 +104,7 @@ h2 {
 }
 
 .event {
-    width: 49%;
+    width: 69%;
     padding-right: 10px;
     height: 100%;
 }
@@ -109,13 +113,34 @@ h2 {
     text-transform: uppercase;
 }
 
+.plugged-event .right {
+    width: 29%;
+}
+
+.events .rsvp {
+    background-color: #066668;
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.events .spots-remaining {
+    color: #3b3b3d;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.events .hosted {
+    color: #066668;
+}
+
 .ambassador {
     width: 49%;
     height: 100%;
-}
-
-.ambassador .replies div {
-    display: inline-block;
 }
 
 .twitter-feed {
@@ -123,15 +148,16 @@ h2 {
     background-color: #066668;
     margin-left: 10px;
     color: white;
+    height: 100%;
 }
 
 .twitter-feed h2 {
     font-size: 30px;
-    height: 100%;
 }
 
 .twitter-feed ul {
     list-style-type: none;
+    height: 100%;
 }
 
 .twitter-feed li {
