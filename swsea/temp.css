@@ -204,7 +204,6 @@ h3 {
 }
 
 .ambassador-thumb {
-    background-image: url(http://placekitten.com/60/60);
     width: 60px;
     height: 60px;
     display: inline-block;
@@ -218,7 +217,7 @@ h3 {
 
 .sponsor-name {
     display: inline-block;
-    font-size: 20px;
+	font: 28pt 'LeagueGothicRegular', Arial, sans-serif;
 }
 
 .twitter-feed {
