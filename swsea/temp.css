@@ -145,6 +145,33 @@ h2 {
     height: 100%;
 }
 
+.ambassador-pick {
+    display:inline-block;
+    width: 30%;
+    background-color: #cece54;
+    margin-left: 1%;
+}
+
+.ambassador-pick h3 {
+    display: inline-block;
+}
+
+.ambassador-thumb {
+    background-image: url(http://placekitten.com/60/60);
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+}
+
+.sponsored-pick {
+    display: inline-block;
+    width: 30%;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: #066668;
+    color: white;
+}
+
 .twitter-feed {
     width: 19%;
     background-color: #066668;
