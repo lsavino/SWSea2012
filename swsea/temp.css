@@ -145,14 +145,18 @@ h2 {
     height: 100%;
 }
 
-.ambassador-pick {
+.pick {
     display:inline-block;
     width: 30%;
+    height: 200px;
+}
+
+.ambassador{
     background-color: #cece54;
     margin-left: 1%;
 }
 
-.ambassador-pick h3 {
+.ambassador h3 {
     display: inline-block;
 }
 
@@ -163,9 +167,7 @@ h2 {
     display: inline-block;
 }
 
-.sponsored-pick {
-    display: inline-block;
-    width: 30%;
+.sponsored{
     padding-left: 2%;
     padding-right: 2%;
     background-color: #066668;
