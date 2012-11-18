@@ -195,6 +195,11 @@ h3 {
     height: 200px;
 }
 
+.pick p, .sponsor-idea{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
 .ambassador.pick {
     background-color: #cece54;
 }
@@ -207,6 +212,7 @@ h3 {
     width: 60px;
     height: 60px;
     display: inline-block;
+    vertical-align: middle;
 }
 
 .sponsored.pick{
@@ -218,6 +224,8 @@ h3 {
 .sponsor-name {
     display: inline-block;
 	font: 28pt 'LeagueGothicRegular', Arial, sans-serif;
+    margin-top: 20px;
+    margin-left: 20px;
 }
 
 .twitter-feed {
