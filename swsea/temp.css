@@ -71,6 +71,11 @@ h3 {
     width: 237px;
     height: 100px;
 }
+.logofremont {
+    background-image: url("images/logo-fremont.png");
+    width: 255px;
+    height: 100px;
+}
 
 #homepage {
 	background-image:url("images/logo.png"), url("images/bgbars.png"), url("images/background.jpg");
@@ -114,6 +119,8 @@ h3 {
     padding-left: 15px;
     background-color: #cece54;
     width: 96%;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .plugged-event h3 {
