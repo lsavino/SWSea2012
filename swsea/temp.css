@@ -180,9 +180,7 @@ h3 {
 .ambassadors {
     margin-bottom: 10px;
     margin-top: 10px;
-    width: 96%;
-    padding-right: 0px;
-    padding-left: 0px;
+    width: 99%;
 }
 
 .ambassador {
@@ -214,6 +212,7 @@ h3 {
 .sponsored.pick{
     background-color: #066668;
     color: white;
+    margin-left: 0.5%;
 }
 
 .sponsor-name {
