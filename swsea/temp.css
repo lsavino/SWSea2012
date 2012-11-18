@@ -21,15 +21,13 @@ h2 {
 
 .people-list {
     display: block;
-    width: 38%;
+    width: 20%;
     background-color: red;
-    float: left;
 }
 
 .neighborhood-desc {
     display: block;
-    width: 60%;
-    float: right;
+    width: 80%;
 }
 
 .neighborhood-desc p {
@@ -37,11 +35,11 @@ h2 {
     color: blue;
 }
 
-img.right {
+.right {
     float: right;
 }
 
-img.left {
+.left {
     float: left;
 }
 
