@@ -1,4 +1,11 @@
 
+/**
+ * Green: cece54
+ * Teal: 066668
+ * Grey: 3b3b3d
+ */
+
+
 body {
     font-family: "Helvetica";
 	background-image:url("images/background.jpg");
@@ -43,6 +50,16 @@ h2 {
  
 .clearfix { display: inline-block; }
 
+.universal-header {
+    background-color: #3b3b3d;
+}
+
+.logo {
+    background-image: url("images/logo.png");
+    width: 256px;
+    height: 101px;
+}
+
 .people-list {
     display: block;
     width: 20%;
@@ -72,7 +89,7 @@ h2 {
     margin-top: 10px;
     padding-right: 15px;
     padding-left: 15px;
-    background-color: yellow;
+    background-color: #cece54;
 }
 
 .plugged-event h3 {
@@ -101,12 +118,14 @@ h2 {
 
 .twitter-feed {
     width: 19%;
-    background-color: green;
+    background-color: #066668;
     margin-left: 10px;
+    color: white;
 }
 
 .twitter-feed h2 {
     font-size: 30px;
+    height: 100%;
 }
 
 .twitter-feed ul {
@@ -119,6 +138,6 @@ h2 {
 
 .twitter-feed li .user {
     font-size: 20px;
-    font-style: bold;
+    font-weight: bold;
 }
 
