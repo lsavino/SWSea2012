@@ -14,23 +14,25 @@ jQuery(document).ready(function(){
 	$('area.fremont').bind("click",function(){
 		event.preventDefault();
 		jQuery("#thatImg").css({
-		"position":"absolute", 
-		"display":"block", 
+		"position":"absolute",
 		"top": (theY - 110) + "px",
 		"left": theX + "px",
-		});
+		}).fadeIn();
+		jQuery("#hipster").fadeOut();
+		jQuery("#fremont").attr("src","images/map-fremont.png").fadeIn();
 	});
 })
 </script>
+<link rel="stylesheet" type="text/css" href="temp.css" />
+</head>
+
 <body>
-<div style="width: 300px; height: 300px; background-color: #ff66aa; position: absolute; display: none;" id="thatDiv">FREMONT!<br />Fremont!<br />fremont.<br />It really whips the llama's ass.</div>
 <img src="images/fremont-box.png" style="position: absolute; display: none;" id="thatImg" />
 
-<img id="fremont" src="http://www.image-maps.com/uploaded_files/2201211180009256_map.png" usemap="#fremont" border="0" width="610" height="975" alt="" />
+<img id="fremont" src="images/map.png" usemap="#fremont" border="0" width="610" height="975" alt="" />
 <map id="_fremont" name="fremont">
 <area class="fremont" shape="poly" coords="234,212,289,213,290,185,331,185,352,218,352,255,346,263,346,329,338,326,314,365,289,347,280,355,243,322,235,316,232,300,246,299,247,241,234,241," href="#" alt="" title=""   />
-<area class="fremont" shape="rect" coords="608,973,610,975" href="http://www.image-maps.com/index.php?aff=mapped_users_2201211180009256" alt="Image Map" title="Image Map" />
+<img src="images/hipster.png" id="hipster">
 </map>
-
 </body>
 </html>
