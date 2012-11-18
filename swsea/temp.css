@@ -76,6 +76,10 @@ h3 {
     background-color: red;
 }
 
+body .neighborhood {
+	background-image:url("images/background.jpg");
+}
+
 .neighborhood.content {
     display: inline-block;
     height: 100%;
@@ -155,7 +159,7 @@ h3 {
     height: 200px;
 }
 
-.ambassador{
+.ambassador.pick {
     background-color: #cece54;
     margin-left: 1%;
 }
@@ -171,7 +175,7 @@ h3 {
     display: inline-block;
 }
 
-.sponsored{
+.sponsored.pick{
     padding-left: 2%;
     padding-right: 2%;
     background-color: #066668;
