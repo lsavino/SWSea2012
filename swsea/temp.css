@@ -177,6 +177,12 @@ h3 {
     margin-right: 5px;
 }
 
+.ambassadors {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 99%;
+}
+
 .ambassador {
     width: 49%;
     height: 100%;
@@ -184,13 +190,12 @@ h3 {
 
 .pick {
     display:inline-block;
-    width: 30%;
+    width: 33%;
     height: 200px;
 }
 
 .ambassador.pick {
     background-color: #cece54;
-    margin-left: 1%;
 }
 
 .ambassador h3 {
@@ -205,10 +210,9 @@ h3 {
 }
 
 .sponsored.pick{
-    padding-left: 2%;
-    padding-right: 2%;
     background-color: #066668;
     color: white;
+    margin-left: 0.5%;
 }
 
 .sponsor-name {
