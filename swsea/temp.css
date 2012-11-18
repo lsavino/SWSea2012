@@ -37,17 +37,26 @@ h2 {
     background-color: red;
 }
 
+.plugged-event h3 {
+    padding-top: 15px;
+}
+
 .events h2 {
     text-align: left;
     font-size: 18px;
+}
+
+.event {
+    width: 49%;
+    padding-right: 10px;
 }
 
 .event h2 {
     text-transform: uppercase;
 }
 
-.plugged-event h3 {
-    padding-top: 15px;
+.ambassador {
+    width: 49%;
 }
 
 .ambassador .replies div {
