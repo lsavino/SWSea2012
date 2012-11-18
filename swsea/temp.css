@@ -166,7 +166,10 @@ h3 {
 }
 
 .events .hosted {
-    color: #066668;
+    background-image: url("images/apluginhostedevent.png");
+    height: 22px;
+    width: 141px;
+    background-repeat: no-repeat;
 }
 
 .event .detail .key {
