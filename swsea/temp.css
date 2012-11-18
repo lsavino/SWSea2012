@@ -102,3 +102,16 @@ h2 {
     width: 20%;
 }
 
+.twitter-feed h2 {
+    font-size: 30px;
+}
+
+.twitter-feed ul {
+    list-style-type: none;
+}
+
+.twitter-feed li {
+    margin-top: 10px;
+
+}
+
